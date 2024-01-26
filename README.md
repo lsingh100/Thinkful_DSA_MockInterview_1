@@ -107,6 +107,7 @@ Notice that there are some empty strings in that result. Those are not valid wor
 Write the solution to this problem in the file named ```src/concordance.js```.
 
 ```searchLines()```
+
 Write a function named searchLines() that accepts:
 
 1. **words**: a linked list of words
