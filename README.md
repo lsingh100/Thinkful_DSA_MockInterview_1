@@ -76,7 +76,7 @@ A concordance generated from this text may look like this:
    ...
 }
 ```
-```concordance()```
+```## concordance()```
 
 Write a function named concordance that accepts an array of strings representing a body of text and returns a concordance of that text. Note the following:
 
@@ -106,7 +106,7 @@ Notice that there are some empty strings in that result. Those are not valid wor
 
 Write the solution to this problem in the file named ```src/concordance.js```.
 
-```searchLines()```
+``` ## searchLines()```
 
 Write a function named searchLines() that accepts:
 
