@@ -1,14 +1,20 @@
-function searchLines(words, concordance, data) {
+function searchLines(words, concordance,
+                     data) {
     //create empty set
-    const linesContainingWords = new Set();
+    const linesContainingWords
+        = new Set();
     //loop through each word
-    for (let currentNode = words.head; currentNode; currentNode = currentNode.next) {
+    for (let currentNode = words.head;
+         currentNode;
+         currentNode = currentNode.next) {
       //get current word, lowercase
-      const word = currentNode.value.toLowerCase();
+      const word = 
+          currentNode.value.toLowerCase();
       //check if in concordance
       if (concordance[word]) {
       //if yes, loop through each line
-        concordance[word].forEach(lineNum => {
+        concordance[word]
+            .forEach(lineNum => {
            //add line from data
           linesContainingWords.add(data[lineNum]);
         });
